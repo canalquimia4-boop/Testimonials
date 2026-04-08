@@ -132,7 +132,7 @@ export default function Portfolio() {
               <h2 className="text-4xl md:text-5xl font-bold text-white tracking-tight">{t('portfolio_cta_title')}</h2>
               <p className="text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">{t('portfolio_cta_subtitle')}</p>
               <div className="pt-4">
-                <a href="/contact" className="btn-primary inline-flex items-center px-10 py-4 text-lg">
+                <a href="https://intensiva.com.br/projetos/waterland/contact/" className="btn-primary inline-flex items-center px-10 py-4 text-lg">
                   {t('cta_schedule')}
                   <svg className="w-5 h-5 ml-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />

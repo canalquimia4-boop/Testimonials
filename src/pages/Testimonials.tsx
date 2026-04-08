@@ -137,7 +137,7 @@ export default function Testimonials() {
               {t('home_ready_subtitle')}
             </p>
             <a 
-              href="/contact" 
+              href="https://intensiva.com.br/projetos/waterland/contact/" 
               className="inline-block bg-brand-light text-white px-10 py-4 rounded-2xl font-bold text-lg shadow-lg hover:bg-brand-light/90 transition-all active:scale-95"
             >
               {t('cta_schedule')}

@@ -105,7 +105,7 @@ export default function Services() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8">
           <h2 className="text-4xl font-bold">{t('services_not_sure_title')}</h2>
           <p className="text-xl opacity-90">{t('services_not_sure_subtitle')}</p>
-          <a href="/contact" className="btn-primary bg-brand-dark hover:bg-slate-900 inline-block">
+          <a href="https://intensiva.com.br/projetos/waterland/contact/" className="btn-primary bg-brand-dark hover:bg-slate-900 inline-block">
             {t('form_submit')}
           </a>
         </div>

@@ -23,8 +23,8 @@ export default function Navbar() {
     { name: t('nav_testimonials'), path: '/' },
     { name: t('nav_portfolio'), path: '/portfolio' },
     { name: t('nav_services'), path: '/services' },
-    { name: t('nav_about'), path: '/about' },
-    { name: t('nav_contact'), path: '/contact' },
+    { name: t('nav_about'), path: 'https://intensiva.com.br/projetos/waterland/about-us/' },
+    { name: t('nav_contact'), path: 'https://intensiva.com.br/projetos/waterland/contact/' },
   ];
 
   return (
@@ -64,7 +64,7 @@ export default function Navbar() {
               <span className="text-xs font-bold uppercase">{language}</span>
             </button>
 
-            <a href="/contact" className="btn-primary py-2 text-sm">
+            <a href="https://intensiva.com.br/projetos/waterland/contact/" className="btn-primary py-2 text-sm">
               {t('cta_estimate')}
             </a>
           </div>
@@ -109,7 +109,7 @@ export default function Navbar() {
               ))}
               <div className="pt-4">
                 <a
-                  href="/contact"
+                  href="https://intensiva.com.br/projetos/waterland/contact/"
                   onClick={() => setIsOpen(false)}
                   className="block w-full text-center btn-primary"
                 >

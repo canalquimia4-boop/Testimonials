@@ -42,7 +42,7 @@ export default function ServiceDetail({ title, subtitle, description, included, 
                 <p className="text-slate-600 leading-relaxed text-lg">
                   {description}
                 </p>
-                <a href="/contact" className="btn-primary inline-block">
+                <a href="https://intensiva.com.br/projetos/waterland/contact/" className="btn-primary inline-block">
                   {t('form_submit')}
                 </a>
               </div>
